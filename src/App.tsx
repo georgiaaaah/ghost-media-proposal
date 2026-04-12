@@ -287,21 +287,11 @@ export default function App() {
                           <strong className="text-brand-dourado">Nossa Entrega:</strong> Realizamos a arquitetura completa da conta, configuração de segurança, padronização dos acessos e suporte na ativação. A manutenção das assinaturas mensais é de responsabilidade da empresa contratante.
                         </p>
                         <div>
-                          <p className="font-bold text-brand-dourado mb-2">Valores e Planos:</p>
-                          <ul className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                            <li className="bg-white/5 p-3 rounded border border-white/10">
+                          <p className="font-bold text-brand-dourado mb-2">Plano Sugerido:</p>
+                          <ul className="grid grid-cols-1 gap-4">
+                            <li className="bg-white/5 p-3 rounded border border-white/10 max-w-xs">
                               <p className="text-[10px] uppercase tracking-wider text-brand-dourado">Starter</p>
-                              <p className="text-lg font-display">R$ 40,90</p>
-                              <p className="text-[10px] opacity-50">mensal/usuário</p>
-                            </li>
-                            <li className="bg-white/5 p-3 rounded border border-white/10">
-                              <p className="text-[10px] uppercase tracking-wider text-brand-dourado">Standard</p>
-                              <p className="text-lg font-display">R$ 81,80</p>
-                              <p className="text-[10px] opacity-50">mensal/usuário</p>
-                            </li>
-                            <li className="bg-white/5 p-3 rounded border border-white/10">
-                              <p className="text-[10px] uppercase tracking-wider text-brand-dourado">Plus</p>
-                              <p className="text-lg font-display">R$ 136,30</p>
+                              <p className="text-lg font-display">US$ 7</p>
                               <p className="text-[10px] opacity-50">mensal/usuário</p>
                             </li>
                           </ul>
