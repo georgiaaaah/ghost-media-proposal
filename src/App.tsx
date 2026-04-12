@@ -113,7 +113,7 @@ export default function App() {
             referrerPolicy="no-referrer"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-grafite/90 via-brand-grafite/40 to-brand-grafite" />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-grafite/95 via-brand-grafite/60 to-brand-grafite" />
         
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <motion.div
