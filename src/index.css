@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Syncopate:wght@400;700&family=Ysabeau+Infant:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Ysabeau Infant", serif;
+  --font-logo: "Syncopate", sans-serif;
+
+  --color-brand-offwhite: #F5F0EB;
+  --color-brand-grafite: #2C2A26;
+  --color-brand-vermelho: #8B1A1A;
+  --color-brand-dourado: #B8962E;
+  --color-brand-bege: #EDE8E0;
+  --color-brand-surface: #FDFAF6;
+  --color-brand-bege-medio: #C8BCA8;
+  --color-brand-grafite-claro: #A09888;
+
+  --radius-brand-card: 4px;
+  --radius-brand-button: 2px;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-offwhite text-brand-grafite font-sans antialiased selection:bg-brand-vermelho selection:text-white;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-light tracking-tight;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brand-grafite text-brand-offwhite px-8 py-3 rounded-brand-button font-sans text-[11px] uppercase tracking-[2px] transition-all duration-300 hover:bg-brand-dourado hover:shadow-lg active:scale-95;
+  }
+
+  .card-premium {
+    @apply bg-brand-surface border border-brand-bege-medio p-8 rounded-brand-card transition-all duration-500 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl mb-8 border-l-4 border-brand-vermelho pl-6;
+  }
+
+  .label-caps {
+    @apply font-sans text-[11px] uppercase tracking-[3px] text-brand-grafite-claro;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-offwhite);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-bege-medio);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-grafite-claro);
+}
