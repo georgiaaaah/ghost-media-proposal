@@ -458,7 +458,7 @@ export default function App() {
       </section>
 
       {/* Horizonte de Expansão Digital */}
-      <section className="py-24 bg-brand-offwhite">
+      <section className="pt-24 pb-12 bg-brand-offwhite">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div {...fadeIn} className="max-w-4xl mx-auto">
             <span className="label-caps text-brand-vermelho mb-4 block">FUTURO</span>
@@ -498,7 +498,7 @@ export default function App() {
       </section>
 
       {/* Investimento */}
-      <section id="investimento" className="py-24 md:py-32 bg-brand-offwhite">
+      <section id="investimento" className="pt-12 md:pt-16 pb-24 md:pb-32 bg-brand-offwhite">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div {...fadeIn} className="max-w-4xl mx-auto">
             <span className="label-caps text-brand-vermelho mb-4 block">Investimento e Condições</span>
