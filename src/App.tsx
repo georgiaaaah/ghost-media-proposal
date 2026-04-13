@@ -4,18 +4,18 @@
  */
 
 import { motion, useScroll, useSpring } from "motion/react";
-import { 
-  ArrowRight, 
-  CheckCircle2, 
-  Instagram, 
-  Facebook, 
-  MessageSquare, 
-  Camera, 
-  Globe, 
-  Mail, 
-  Search, 
-  BarChart3, 
-  ShieldCheck, 
+import {
+  ArrowRight,
+  CheckCircle2,
+  Instagram,
+  Facebook,
+  MessageSquare,
+  Camera,
+  Globe,
+  Mail,
+  Search,
+  BarChart3,
+  ShieldCheck,
   Award,
   ChevronRight,
   Menu,
@@ -64,11 +64,11 @@ export default function App() {
           <div className="flex items-center gap-2">
             <span className="font-logo font-bold text-brand-vermelho text-xl tracking-[4px]">GHOST MEDIA</span>
           </div>
-          
+
           <div className="hidden md:flex items-center gap-12">
             {["Objetivo", "Etapa I", "Etapa II", "Investimento"].map((item) => (
-              <a 
-                key={item} 
+              <a
+                key={item}
                 href={`#${item.toLowerCase().replace(" ", "-")}`}
                 className="label-caps hover:text-brand-vermelho transition-colors"
               >
@@ -84,14 +84,14 @@ export default function App() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             className="absolute top-full left-0 w-full bg-brand-offwhite border-b border-brand-bege-medio p-6 md:hidden flex flex-col gap-6"
           >
             {["Objetivo", "Etapa I", "Etapa II", "Investimento"].map((item) => (
-              <a 
-                key={item} 
+              <a
+                key={item}
                 href={`#${item.toLowerCase().replace(" ", "-")}`}
                 className="label-caps"
                 onClick={() => setIsMenuOpen(false)}
@@ -106,15 +106,15 @@ export default function App() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden bg-brand-grafite">
         <div className="absolute inset-0 opacity-40">
-          <img 
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1920" 
-            alt="Luxury Mansion Construction" 
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1920"
+            alt="Luxury Mansion Construction"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-brand-grafite/95 via-brand-grafite/60 to-brand-grafite" />
-        
+
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -135,7 +135,7 @@ export default function App() {
           </motion.div>
         </div>
 
-        <motion.div 
+        <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2 text-brand-offwhite/30"
@@ -166,13 +166,13 @@ export default function App() {
                 </p>
               </div>
             </motion.div>
-            <motion.div 
+            <motion.div
               {...fadeIn}
               className="relative aspect-square rounded-brand-card overflow-hidden shadow-2xl"
             >
-              <img 
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=800" 
-                alt="High-end Architecture" 
+              <img
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=800"
+                alt="High-end Architecture"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -436,9 +436,9 @@ export default function App() {
                 items: ["Monitoramento de SEO", "Análise de Métricas (BI)", "Estabilidade e Suporte 24/7"]
               }
             ].map((col, i) => (
-              <motion.div 
-                key={i} 
-                {...fadeIn} 
+              <motion.div
+                key={i}
+                {...fadeIn}
                 className="border-l border-brand-dourado/30 pl-8"
               >
                 <h3 className="text-2xl mb-6 text-brand-dourado">{col.title}</h3>
@@ -457,6 +457,46 @@ export default function App() {
         </div>
       </section>
 
+      {/* Horizonte de Expansão Digital */}
+      <section className="py-24 bg-brand-offwhite">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div {...fadeIn} className="max-w-4xl mx-auto">
+            <span className="label-caps text-brand-vermelho mb-4 block">FUTURO</span>
+            <h2 className="text-3xl md:text-4xl mb-6 text-brand-grafite">Horizonte de Expansão Digital</h2>
+            <p className="text-brand-grafite/80 text-lg mb-8">
+              Conforme a marca se consolida e a operação amadurece, o ecossistema web pode evoluir para recursos de alto impacto:
+            </p>
+            
+            <ul className="space-y-6 mb-12">
+              <li className="flex gap-4">
+                <CheckCircle2 size={16} className="text-brand-vermelho shrink-0 mt-1" />
+                <div>
+                  <strong className="text-brand-grafite">Área do cliente</strong><span className="text-brand-grafite/70"> — ambiente exclusivo (dashboard) e seguro onde cada cliente acompanha o andamento da sua obra: fotos semanais, cronograma, documentos e marcos de entrega.</span>
+                </div>
+              </li>
+              <li className="flex gap-4">
+                <CheckCircle2 size={16} className="text-brand-vermelho shrink-0 mt-1" />
+                <div>
+                  <strong className="text-brand-grafite">Concierge Digital</strong><span className="text-brand-grafite/70"> — canal de atendimento com IA integrado ao site, com assistência inteligente para tirar dúvidas iniciais e impressionar o visitante. Ótimo também para triagem de contatos e qualificação de leads antes do primeiro contato humano.</span>
+                </div>
+              </li>
+              <li className="flex gap-4">
+                <CheckCircle2 size={16} className="text-brand-vermelho shrink-0 mt-1" />
+                <div>
+                  <strong className="text-brand-grafite">Manual do Proprietário Digital</strong><span className="text-brand-grafite/70"> — acervo exclusivo entregue junto com as chaves: manuais de equipamentos, plantas finais e canal direto de suporte pós-obra</span>
+                </div>
+              </li>
+            </ul>
+
+            <div className="p-6 bg-brand-bege/30 border border-brand-bege-medio rounded-brand-card">
+              <p className="text-sm text-brand-grafite/60 italic">
+                Cada um desses módulos será apresentado em proposta específica e independente, sem alterar as condições do contrato vigente.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Investimento */}
       <section id="investimento" className="py-24 md:py-32 bg-brand-offwhite">
         <div className="max-w-7xl mx-auto px-6">
@@ -466,7 +506,7 @@ export default function App() {
             <p className="text-brand-grafite/70 mb-12 text-lg">
               Este investimento unifica todas as frentes de atuação (Infraestrutura Web, Gestão Social e Estratégia de Tráfego), garantindo que a nossa equipe opere com total autonomia e foco em resultados.
             </p>
-            
+
             <div className="grid md:grid-cols-2 gap-12 items-start mb-16">
               <div className="p-8 bg-brand-bege rounded-brand-card border border-brand-bege-medio">
                 <p className="label-caps mb-2 text-brand-grafite-claro">Investimento Mensal</p>
