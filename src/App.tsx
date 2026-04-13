@@ -544,16 +544,20 @@ export default function App() {
               </div>
             </div>
 
-            <div className="flex justify-center pt-12 border-t border-brand-bege-medio">
-              <div className="flex items-center gap-4 text-brand-grafite/30 font-logo text-[10px] tracking-[4px]">
-                <span>GHOST MEDIA</span>
-                <div className="w-1 h-1 bg-brand-vermelho rounded-full" />
-                <span>ESTRATÉGIA PREMIUM</span>
-              </div>
-            </div>
           </motion.div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="py-12 bg-brand-grafite">
+        <div className="max-w-7xl mx-auto px-6 flex justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 text-brand-offwhite/50 font-logo text-[10px] tracking-[4px] text-center">
+            <span>GHOST MEDIA</span>
+            <div className="hidden md:block w-1 h-1 bg-brand-vermelho rounded-full shrink-0" />
+            <span>ESTRATÉGIA PREMIUM</span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
