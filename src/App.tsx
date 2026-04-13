@@ -145,7 +145,7 @@ export default function App() {
       </section>
 
       {/* O Objetivo */}
-      <section id="objetivo" className="py-24 md:py-32 bg-brand-offwhite">
+      <section id="objetivo" className="pt-24 pb-12 md:pt-32 md:pb-16 bg-brand-offwhite">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div {...fadeIn}>
