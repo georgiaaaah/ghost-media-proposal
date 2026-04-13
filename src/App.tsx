@@ -310,7 +310,7 @@ export default function App() {
                   <ul className="space-y-4 text-sm text-brand-grafite/80 mb-6">
                     <li className="flex gap-3"><CheckCircle2 size={16} className="text-brand-vermelho shrink-0 mt-1" /> <span><strong>Design Exclusivo:</strong> Baseado em Design System próprio para interface elegante e fluida.</span></li>
                     <li className="flex gap-3"><CheckCircle2 size={16} className="text-brand-vermelho shrink-0 mt-1" /> <span><strong>Hospedagem e Domínio:</strong> Gerenciamento completo em estrutura cloud de alta performance.</span></li>
-                    <li className="flex gap-3"><CheckCircle2 size={16} className="text-brand-vermelho shrink-0 mt-1" /> <span><strong>Condições de Cronograma:</strong> O cronograma de entrega do site está diretamente ligado ao fornecimento da Identidade Visual e dos Ativos Audiovisuais (fotos e vídeos) por parte da contratante.</span></li>
+                    <li className="flex gap-3"><CheckCircle2 size={16} className="text-brand-vermelho shrink-0 mt-1" /> <span><strong>Condições de Cronograma:</strong> O cronograma para início da confecção do site está diretamente ligado ao fornecimento da Identidade Visual e dos Ativos Audiovisuais (fotos e vídeos).</span></li>
                   </ul>
                   <p className="text-[10px] text-brand-grafite-claro italic border-t border-brand-bege-medio pt-4">
                     Nota Importante: Este projeto contempla a criação do Design System do site (interface), mas não inclui a criação de Branding (Logotipo e Identidade Visual da marca).
