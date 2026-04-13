@@ -511,7 +511,7 @@ export default function App() {
               <div className="p-8 bg-brand-bege rounded-brand-card border border-brand-bege-medio">
                 <p className="label-caps mb-2 text-brand-grafite-claro">Investimento Mensal</p>
                 <div className="flex items-baseline gap-2">
-                  <span className="text-5xl font-display font-light text-brand-grafite">R$ 5.700,00</span>
+                  <span className="text-5xl font-display font-light text-brand-grafite">R$ 5.820,00</span>
                 </div>
                 <p className="text-sm text-brand-vermelho font-medium mt-4">Contrato mínimo: 6 meses</p>
               </div>
