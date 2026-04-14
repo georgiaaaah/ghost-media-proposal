@@ -153,16 +153,16 @@ export default function App() {
               <h2 className="section-title">O Objetivo</h2>
               <div className="space-y-6 text-brand-grafite/80">
                 <p className="text-xl font-medium text-brand-grafite">
-                  Hoje, a presença digital deixou de ser um complemento — ela é o próprio ponto comercial da marca no mundo contemporâneo. É onde a empresa é encontrada, percebida e julgada em segundos.
+                  Seu novo ponto comercial está nas redes sociais. É lá onde a sua marca é encontrada, percebida e julgada em questão de segundos pelos seus clientes.
                 </p>
                 <p>
-                  Este projeto nasce com o objetivo de estruturar, desde a base, uma presença digital sólida, coerente e alinhada ao posicionamento premium da construtora. Não se trata apenas de “estar online”, mas de construir uma imagem que sustente valor, autoridade e confiança.
+                  O objetivo do projeto é claro: construir um alicerce sólido para o seu ecossistema digital, capaz de posicionar sua marca entre os principais players do mercado premium de construção.
                 </p>
                 <p>
-                  Grandes marcas não se estabelecem por acaso. Elas investem de forma consistente em estratégias digitais, criando movimentos coordenados que posicionam, reforçam e expandem sua presença no mercado. Existe intenção, estrutura e repetição.
+                  Grandes marcas investem de forma consistente em estratégias digitais, criando movimentos coordenados que posicionam, reforçam e expandem sua presença no mercado. Existe intenção, estrutura e repetição.
                 </p>
                 <p className="italic border-l-2 border-brand-bege-medio pl-6 py-2">
-                  Aqui, o foco é exatamente esse: criar um ecossistema digital bem fundamentado, com ações estratégicas que consolidem a marca desde o início, transformando presença em percepção — e percepção em valor.
+                  Crie um ecossistema digital bem fundamentado e consolide sua marca, transformando presença em percepção e valor.
                 </p>
               </div>
             </motion.div>
@@ -363,23 +363,6 @@ export default function App() {
                     </li>
                   ))}
                 </ul>
-
-                <div className="pt-6 border-t border-brand-bege-medio">
-                  <p className="label-caps text-[9px] mb-3">Módulo Opcional</p>
-                  <h5 className="font-medium text-sm mb-2">Central de Conteúdo (Blog)</h5>
-                  <p className="text-xs text-brand-grafite/60 mb-4">
-                    O blog é uma ferramenta poderosa para o ranqueamento orgânico no Google e prova de autoridade, porém, exige rigor de manutenção. Recomendamos a implementação deste módulo apenas sob o compromisso de alimentação constante, pois blog descuidado passa a impressão de obra parada.
-                  </p>
-                  <div className="space-y-2 mb-4">
-                    <p className="text-[10px] text-brand-grafite/70 italic">Implementação Técnica: R$ 500,00 (Pagamento único).</p>
-                    <p className="text-[10px] text-brand-grafite/70 italic">Incluso: Arquitetura de notícias, categorias e sistema de publicação.</p>
-                    <p className="text-[10px] text-brand-grafite/70 italic">Gestão de Conteúdo: A produção de textos pode ser contratada à parte ou realizada pela equipe interna da construtora sob nossa supervisão editorial.</p>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-xs font-bold text-brand-vermelho">R$ 500,00</span>
-                    <span className="text-[10px] text-brand-grafite-claro uppercase">Pagamento Único</span>
-                  </div>
-                </div>
               </motion.div>
             </div>
 
@@ -530,7 +513,7 @@ export default function App() {
                     <CheckCircle2 className="text-brand-vermelho shrink-0 mt-1" size={18} />
                     <div>
                       <p className="text-sm font-bold text-brand-grafite mb-1">Aporte de Performance (Incluso):</p>
-                      <p className="text-xs text-brand-grafite/70">R$ 1.000,00. Valor destinado integralmente ao impulsionamento nas plataformas (Meta Ads). Gerenciamos esse recurso para garantir que sua marca alcance o público de alto padrão com constância.</p>
+                      <p className="text-xs text-brand-grafite/70">R$ 1.000,00. Valor destinado integralmente ao impulsionamento nas plataformas (Meta Ads). Gerenciamos esse recurso para garantir que sua marca alcance o público de alto padrão com constância. (valor incluso no plano).</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
